@@ -1,0 +1,50 @@
+body{
+    background: url('/imagens/pexels-sanaan-3116970.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.central{
+    width: 20%;
+    background: rgba(255, 255, 255, 0.411);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.central button{
+    width: 60%;
+    height: 30px;
+    border: none;
+    background: palevioletred;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.central button:hover{
+    background: white;
+    color: palevioletred;
+    transform: scale(1.08);
+}
+
+.central p{
+    color: palevioletred;
+}
